@@ -1,0 +1,286 @@
+/**
+* Welcome to your ✨𝔲𝔱𝔦𝔩𝔦𝔱𝔶 𝔰𝔱𝔶𝔩𝔢𝔰✨!
+* This file includes utility classes that are super simple
+* and can be used to add general styles; variable definitions
+* for colors; and styles to html, body, and other high level
+* DOMs.
+* 
+* All utility classes start with a `u-` and all do
+* one basic CSS thing (for example, making the font-weight
+* 600 for bolding) or are super generic.
+* 
+* This is 𝙉𝙊𝙏 the place to define classes for components or
+* do rigorous styling. You shoud not need to change this file
+* much after initial creation.
+*/
+
+/* List of fonts - Lato, OpenSans, Nobile*/
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Nobile:ital,wght@1,500&family=Open+Sans&display=swap');
+
+:root {
+  --primary: rgb(2,25,54);
+  --secondary: rgb(251,189,26);
+  --red: rgb(229,52,44);
+  --blue: rgb(122,178,221);
+  --grey: rgb(225, 225, 225);
+  --violet: rgb(148,18,118);
+  --extradarkgrey: rgb(69,69,69);
+  --darkgrey: rgb(170,170,170);
+  --medgrey: #d1d1d1;
+  --lightgrey: #f7f7f7;
+  --white: #ffffff;
+
+  --xs: 4px;
+  --s: 8px;
+  --m: 16px;
+  --l: 24px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 1.11rem;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Open Sans", sans-serif;
+  margin-top: 0;
+  letter-spacing: -.025rem;
+}
+
+p {
+  margin-top: 0;
+}
+
+form {
+  flex-grow: 1;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: var(--blue);
+}
+
+b {
+  letter-spacing: -.025em;
+}
+
+button {
+  display: block;
+  font-size: inherit;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-inline: 2em;
+  border: none;
+  margin-inline: auto;
+  font-family: inherit;
+}
+
+.App-container {
+  margin: 0 0 40px 0;
+}
+
+.u-nomargin {
+  margin: 0;
+}
+
+.u-nopadding {
+  padding: 0;
+}
+
+.u-block {
+  position: relative;
+  width: 80%;
+  padding: 0 10% 0% 10%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.u-block > h1 {
+  display: inline-block;
+}
+
+.u-block > h1:before {
+  content: "";
+  display: block;
+  height: 0.25rem;
+  width: 100%;
+  margin-bottom: 0.25rem;
+  opacity: 1;
+  background-color: currentColor;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+  animation: 1.5s cubic-bezier(0,0,0,1) 0s 1 section-title-line
+}
+
+@keyframes section-title-line {
+  0% {
+    transform: scaleX(0);
+    -ms-transform: scaleX(0);
+  }
+
+  100% {
+    transform: scaleX(1);
+    -ms-transform: scaleX(1);
+  }
+  }
+
+
+.u-flex {
+  display: flex;
+}
+
+.u-flexColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.u-flex-justifyCenter {
+  justify-content: center;
+}
+
+.u-flex-justifySpace {
+  justify-content: space-between;
+}
+
+.u-flex-alignCenter {
+  align-items: center;
+}
+
+.u-inlineBlock {
+  display: inline-block;
+}
+
+.u-bold {
+  font-weight: 600;
+}
+
+.u-textCenter {
+  text-align: center;
+}
+
+.u-relative {
+  position: relative;
+}
+
+.u-pointer {
+  cursor: pointer;
+}
+
+.u-link {
+  color: var(--primary);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.u-link:hover {
+  color: var(--primary--dim);
+}
+
+.u-margin-top {
+  margin-top: .75rem;
+}
+
+.u-image {
+  width: 100%;
+  height: auto;
+  background-position: center;
+  background-size: cover;
+}
+
+.u-aspect-169 {
+  aspect-ratio: 16/9;
+}
+
+.u-aspect-43 {
+  aspect-ratio: 4/3;
+}
+
+.u-aspect-square {
+  aspect-ratio: 1/1;
+}
+
+.u-gridPic-3, .u-gridPic-2 {
+  max-width: 24rem;
+  margin-inline: auto;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 1.25rem;
+  margin-top: 1rem;
+}
+
+@media (min-width: 752px) {
+  .u-gridPic-3 {
+    max-width: 100%;  
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 680px) {
+  .u-gridPic-2 {
+    max-width: 66%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.u-b-primary, .u-b-primary:hover, .u-b-primary:visited {
+  background-color: var(--primary);
+  color: white
+}
+
+.u-b-secondary, .u-b-secondary:hover, .u-b-secondary:visited {
+  background-color: var(--secondary);
+  color: var(--primary)
+}
+
+.u-b-blue, .u-b-blue:hover, .u-b-blue:visited {
+  background-color: var(--blue);
+  color: var(--primary)
+}
+
+.u-b-red, .u-b-red:hover, .u-b-red:visited {
+  background-color: var(--red);
+  color: white
+}
+
+.u-b-violet, .u-b-violet:hover, .u-b-violet:visited {
+  background-color: var(--violet);
+  color: white;
+}
+
+.u-b-white, .u-b-white:hover, .u-b-white:visited {
+  background-color: white;
+  color: black;
+}
+
+.u-b-darkgrey, .u-b-darkgrey:hover, .u-b-darkgrey:visited {
+  background-color: var(--darkgrey);
+  color: black
+}
+
+.u-alert-green {
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+  padding: .75rem;
+}
+
+.u-alert-yellow {
+  color: #856404;
+  background-color: #fff3cd;
+  border-color: #ffeeba;
+  padding: .75rem;
+}
+
+.u-alert-red {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+  padding: .75rem;
+}

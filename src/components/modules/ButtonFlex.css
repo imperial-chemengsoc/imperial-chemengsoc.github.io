@@ -1,0 +1,83 @@
+.ButtonFlex-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.ButtonFlex-container-2, .ButtonFlex-container-3 {
+    flex-direction: column;
+    margin-inline: 0;
+}
+
+.ButtonFlex-container > * {
+    width: 100%;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-inline: auto;
+}
+
+.ButtonFlex-container > * + * {
+    margin-top: 1em;
+}
+
+/* individual button styling */
+
+.ButtonFlex-container a {
+    text-decoration: none;
+}
+
+.ButtonFlex-container input {
+    font-size: inherit;
+    font-family: inherit;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-inline: 2em;
+    border: none;
+}
+
+/* mobile version: depends on length of item list */
+
+.ButtonFlex-container-1 > * {
+    width: 100%;
+    max-width: 60ch;
+    margin-inline: auto;
+    padding-inline: 2ch;
+}
+
+@media (min-width: 800px) {
+    .ButtonFlex-container-2 {
+        flex-direction: row;
+        margin-inline: auto;
+        max-width: 640px;
+    }
+
+    .ButtonFlex-container-2 > * {
+        width: 30ch;
+        margin-inline: 2ch;
+    }
+
+    .ButtonFlex-container-2 > * + * {
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 1080px) {
+    .ButtonFlex-container-3 {
+        flex-direction: row;
+        margin-inline: auto;
+        max-width: 960px;
+    }
+
+    .ButtonFlex-container-3 > * {
+        width: 20ch;
+        margin-inline: 2ch;
+        padding-inline: 2rem;
+    }
+
+    .ButtonFlex-container-3 > * + * {
+        margin-top: 0;
+    }
+}

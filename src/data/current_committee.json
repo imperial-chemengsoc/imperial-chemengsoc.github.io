@@ -1,0 +1,478 @@
+[
+    {
+        "id": 1,
+        "username": "radhika-nyayadhish",
+        "provider": "local",
+        "confirmed": true,
+        "blocked": false,
+        "preferredName": "Radhika Nyayadhish",
+        "preferredPronoun": "She/Her",
+        "cesRole": "Chair",
+        "orderOfDisplay": 1,
+        "subject": "",
+        "classOf": 2024,
+        "websiteLink": null,
+        "facebookLink": null,
+        "twitterLink": null,
+        "linkedinLink": null,
+        "instagramLink": null,
+        "personalIntro": "I am Radhika, your Chair. I will be making sure that we as a society give you an exciting & fun uni experience! I will be overseeing all the society functions & making sure that all the committee and you feel supported.\n\nYou can catch me at any of our social events, tours, career talks and of course Frank Morton. I hope to see you all there! :)\n\nA little about me: I am a 4th year who loves to crochet, dance (especially bhangra) & binge watch modern family.\n\nMy Favourite ChemEng Memory is New Years Dinner (food was great & so were the vibes)",
+        "preferredEmail": "radhika.nyayadhish20@imperial.ac.uk",
+        "role": {
+            "id": 1,
+            "type": "wcr_committee_member"
+        },
+        "profilePicture": {
+            "id": null,
+            "url": "/chemengsoc_committee/radhika-nyayadhish.webp"
+        }
+    },
+    {
+        "id": 2,
+        "username": "xuanyong-tay",
+        "provider": "local",
+        "confirmed": true,
+        "blocked": false,
+        "preferredName": "Xuanyong (Keith) Tay",
+        "preferredPronoun": "He/Him",
+        "cesRole": "Vice Chair",
+        "orderOfDisplay": 2,
+        "subject": "MEng Chemical Engineering",
+        "classOf": 2025,
+        "websiteLink": null,
+        "facebookLink": null,
+        "twitterLink": null,
+        "linkedinLink": null,
+        "instagramLink": null,
+        "personalIntro": "Greetings all! My name is Xuanyong (Keith), and I serve as your Vice Chair in the society. I work closely with the external relations team, which are your IR, Tours and Alumni Officers in managing relations with external companies and alumni to bring about career events and insights to you. I also oversee the Subcommittee programme which I highly recommend to all who are interested in getting involved within the society!\n\nMy favourite event of ChemEngSoc would be none other than the New Year's Dinner, where I got the opportunity to hang out and mingle with people all across the department. It brought me closer with the department and definitely made me proud to be a ChemEnger at Imperial!",
+        "preferredEmail": "xuanyong.tay21@imperial.ac.uk",
+        "role": {
+            "id": 3,
+            "type": "wcr_committee_member"
+        },
+        "profilePicture": {
+            "id": 2,
+            "url": "/chemengsoc_committee/xuanyong-tay.webp"
+        }
+    },
+    {
+        "id": 3,
+        "username": "ajai-gill",
+        "provider": "local",
+        "confirmed": true,
+        "blocked": false,
+        "preferredName": "Ajai Gill",
+        "preferredPronoun": "",
+        "cesRole": "Secretary",
+        "orderOfDisplay": null,
+        "subject": "",
+        "classOf": 2024,
+        "websiteLink": null,
+        "facebookLink": null,
+        "twitterLink": null,
+        "linkedinLink": null,
+        "instagramLink": null,
+        "personalIntro": "Hey I’m Ajai, your ChemEngSoc Secretary. I’ll be the one letting you know all about our exciting events taking place this year, as well as managing our communications team responsible for our society magazine ‘pipeline’, our social media platforms, and merch.\n\nOne of my personal favourite events is Frank Morton, where the society travels to a uni to compete in a day of sports and then a bunch of activities and socials in the evening. This year, Imperial secured a very impressive second place! Also don’t worry about if you’re not super sporty, as I did laser tag this year. I look forward to seeing you at our amazing events!",
+        "preferredEmail": "ajai.gill20@imperial.ac.uk",
+        "role": {
+            "id": null,
+            "type": null
+        },
+        "profilePicture": {
+            "id": null,
+            "url": "/chemengsoc_committee/ajai-gill.webp"
+        }
+    },
+    {
+        "id": 5,
+        "username": "bide-chen",
+        "provider": "local",
+        "confirmed": true,
+        "blocked": false,
+        "preferredName": "Bide (Peter) Chen",
+        "preferredPronoun": "",
+        "cesRole": "Treasurer",
+        "orderOfDisplay": null,
+        "subject": "",
+        "classOf": 2025,
+        "websiteLink": null,
+        "facebookLink": null,
+        "twitterLink": null,
+        "linkedinLink": null,
+        "instagramLink": null,
+        "personalIntro": "My job is managing society’s finances and getting the most bang for the buck!\n\nHey, I’m Peter. I am part of the society’s executive committee to look after the budget and maximise members’ engagement in the activities. It’s been a wonderful time last year to coordinate a wide range ChemEngSoc events, especially the workshops that brought students and industry leaders together!\n\nDon’t hesitate to share how would you like your experience at ChemEng. We are here to listen and make it happen!",
+        "preferredEmail": "bide.chen21@imperial.ac.uk",
+        "role": {
+            "id": null,
+            "type": null
+        },
+        "profilePicture": {
+            "id": null,
+            "url": "/chemengsoc_committee/bide-chen.webp"
+        }
+    },    
+    {
+        "id": 6,
+        "username": "rebecca-fayad",
+        "provider": "local",
+        "confirmed": true,
+        "blocked": false,
+        "preferredName": "Rebecca Fayad",
+        "preferredPronoun": "She/Her",
+        "cesRole": "Industrial Relations Officer",
+        "orderOfDisplay": null,
+        "subject": "",
+        "classOf": 2026,
+        "websiteLink": null,
+        "facebookLink": null,
+        "twitterLink": null,
+        "linkedinLink": null,
+        "instagramLink": null,
+        "personalIntro": "Hello everyone, my name is Rebecca Fayad and I will be your Industrial Relations Officer for this year. We will be organising events, workshops, fairs and much more to make sure you have all the options available to you after you graduate. Looking forward to meeting all of you at our events and over pizza!\n\nThe best memory would definitely have to be the teacher's performance of ABBA at the talent show - absolutely iconic",
+        "preferredEmail": "rebecca.fayad22@imperial.ac.uk",
+        "role": {
+            "id": null,
+            "type": null
+        },
+        "profilePicture": {
+            "id": null,
+            "url": "/chemengsoc_committee/rebecca-fayad.webp"
+        }
+    },
+    {
+        "id": 7,
+        "username": "marta-garcia-belza",
+        "provider": "local",
+        "confirmed": true,
+        "blocked": false,
+        "preferredName": "Marta García Belza",
+        "preferredPronoun": "She/Her",
+        "cesRole": "Industrial Relations Officer",
+        "orderOfDisplay": null,
+        "subject": "",
+        "classOf": 2025,
+        "websiteLink": null,
+        "facebookLink": null,
+        "twitterLink": null,
+        "linkedinLink": null,
+        "instagramLink": null,
+        "personalIntro": "Hi everyone! I’m Marta, one of your IR Officers for this year.\n\nNeed help finding your dream job, getting an internship or simply guiding you in your next steps? I’m here for you! My role as IR Officer will include bringing different kinds of career events tailored to your ambitions, ranging from recruitment presentations, networking sessions and workshops to assessment centres, hackathons and technology showcases. Whether you already have your eye on a specific company/sector or not, I can assure you will be well-informed on the opportunities available to you and more prepared and confident for the application processes coming your way. What are you waiting for? Take advantage of what is being offered to you, do not hesitate to join and sign up to our events!\n\nA little bit about myself: I am passionate about sustainability and our contribution to a net-zero future as well as playing tennis (also up to play any kind of racket sports if you’re interested!). Being outdoors fills me with energy, having Hyde Park next to our campus is a wonderful place to go for a walk or a picnic in between study sessions too!\n\nWishing you a wonderful year and see you soon!",
+        "preferredEmail": "marta.garcia-belza21@imperial.ac.uk",
+        "role": {
+            "id": null,
+            "type": null
+        },
+        "profilePicture": {
+            "id": 7,
+            "url": "/chemengsoc_committee/marta-garcia-belza.webp"
+        }
+    },
+    {
+        "id": 8,
+        "username": "wei-jen-chin",
+        "provider": "local",
+        "confirmed": true,
+        "blocked": false,
+        "preferredName": "Wei Jen Chin",
+        "preferredPronoun": "She/Her",
+        "cesRole": "Pipeline Editor",
+        "orderOfDisplay": null,
+        "subject": "",
+        "classOf": 2026,
+        "websiteLink": null,
+        "facebookLink": null,
+        "twitterLink": null,
+        "linkedinLink": null,
+        "instagramLink": null,
+        "personalIntro": "Hi everyone, I’m Wei Jen and I’ll be your Pipeline Editor (essentially managing ChemEngSoc’s magazine) for the year! With content ranging from exciting chemical engineering advances to tips & tricks on navigating life as a uni student in London, my main goal for the magazine is to expand your horizons and provide some guidance through your time at Imperial.\n\nAbout me: Some of my favourite things include (re)watching movies/shows, playing sports with friends and finding recipes that I’ll never cook :b\n\nOne of my most treasured moments in the society is the pub crawl at the start of the year – that’s where I first felt like I was part of the chem eng community, and also where I found out about Pipeline!",
+        "preferredEmail": "wei.chin22@imperial.ac.uk",
+        "role": {
+            "id": null,
+            "type": null
+        },
+        "profilePicture": {
+            "id": 8,
+            "url": "/chemengsoc_committee/wei-jen-chin.webp"
+        }
+    },
+    {
+        "id": 9,
+        "username": "zoe-fang",
+        "provider": "local",
+        "confirmed": true,
+        "blocked": false,
+        "preferredName": "Zoe Fang",
+        "preferredPronoun": "She/Her",
+        "cesRole": "Communications Officer",
+        "orderOfDisplay": null,
+        "subject": "",
+        "classOf": 2026,
+        "websiteLink": null,
+        "facebookLink": null,
+        "twitterLink": null,
+        "linkedinLink": null,
+        "instagramLink": null,
+        "personalIntro": "Hey everyone, I'm Zoe, the communication officer for this year! I'm the girl behind all our social media magic, making sure you stay in the loop on everything awesome. Don't forget to follow us on Facebook, Instagram, Twitter, Threads, and, of course, our epic website chemengsoc.com.\n\nNow, the highlight of the chemengsoc – the Freshers Dinner! That's where I met my ride-or-die crew. I couldn't have asked for a better time!",
+        "preferredEmail": "zoe.fang22@imperial.ac.uk",
+        "role": {
+            "id": null,
+            "type": null
+        },
+        "profilePicture": {
+            "id": 9,
+            "url": "/chemengsoc_committee/zoe-fang.webp"
+        }
+    },
+    {
+        "id": 10,
+        "username": "jacky-wong",
+        "provider": "local",
+        "confirmed": true,
+        "blocked": false,
+        "preferredName": "Jacky Wong",
+        "preferredPronoun": "",
+        "cesRole": "Events Officer",
+        "orderOfDisplay": null,
+        "subject": "",
+        "classOf": 2025,
+        "websiteLink": null,
+        "facebookLink": null,
+        "twitterLink": null,
+        "linkedinLink": null,
+        "instagramLink": null,
+        "personalIntro": "Hey guys! I'm Jacky, an aspiring finance-bro, from Hong Kong and I will be your events officer here to elevate your ChemEng socials to the next level. You will likely find me in 1 of 2 places, either on a badminton court or struggling in a study room. I enjoy food, movies and chilling so don’t hesitate to contact me or hang out.\n\nMy favourite ChemEng memory was Frank Morton and crushing the other universities in Badminton – the sports, the people and the partying is certainly something you don’t want to miss!",
+        "preferredEmail": "yik-ming-jacky.wong20@imperial.ac.uk",
+        "role": {
+            "id": null,
+            "type": null
+        },
+        "profilePicture": {
+            "id": 10,
+            "url": "/chemengsoc_committee/jacky-wong.webp"
+        }
+    },
+    {
+        "id": 11,
+        "username": "abdullah-ali",
+        "provider": "local",
+        "confirmed": true,
+        "blocked": false,
+        "preferredName": "Abdullah Ali",
+        "preferredPronoun": "",
+        "cesRole": "Events Officer",
+        "orderOfDisplay": null,
+        "subject": "",
+        "classOf": 2025,
+        "websiteLink": null,
+        "facebookLink": null,
+        "twitterLink": null,
+        "linkedinLink": null,
+        "instagramLink": null,
+        "personalIntro": "Hey I’m Abdullah, in Year 3. I’m your new Events Officer and will hopefully throw some great events for you guys this year!\n\nMy favourite Chem Eng memory of the past year would have to be Frank Morton at the karaoke bar when everyone was singing Diamonds by Rihanna",
+        "preferredEmail": "abdullah.ali21@imperial.ac.uk",
+        "role": {
+            "id": null,
+            "type": null
+        },
+        "profilePicture": {
+            "id": 11,
+            "url": "/chemengsoc_committee/abdullah-ali.webp"
+        }
+    },
+    {
+        "id": 12,
+        "username": "katy-knoyle",
+        "provider": "local",
+        "confirmed": true,
+        "blocked": false,
+        "preferredName": "Katy Knoyle",
+        "preferredPronoun": "",
+        "cesRole": "First Year Coordinator / Brewmaster",
+        "orderOfDisplay": null,
+        "subject": "",
+        "classOf": 2026,
+        "websiteLink": null,
+        "facebookLink": null,
+        "twitterLink": null,
+        "linkedinLink": null,
+        "instagramLink": null,
+        "personalIntro": "Hi! I’m Katy, a second-year student. I am the First Year Coordinator which means I organise the ChemEng family scheme to ensure the first years settle into the department and have some fun! I am also a brewmaster for the Brewing Society.\n\nMy favourite memory is playing laser tag in Birmingham for the Frank Morton sports day (even though we had to be at the union at 4.30 am!)",
+        "preferredEmail": "katy.knoyle22@imperial.ac.uk",
+        "role": {
+            "id": null,
+            "type": null
+        },
+        "profilePicture": {
+            "id": 12,
+            "url": "/chemengsoc_committee/katy-knoyle.webp"
+        }
+    },
+    {
+        "id": 13,
+        "username": "rachel-ha",
+        "provider": "local",
+        "confirmed": true,
+        "blocked": false,
+        "preferredName": "Rachel Ha",
+        "preferredPronoun": "",
+        "cesRole": "Regalia Officer / Brewmaster",
+        "orderOfDisplay": null,
+        "subject": "",
+        "classOf": 2026,
+        "websiteLink": null,
+        "facebookLink": null,
+        "twitterLink": null,
+        "linkedinLink": null,
+        "instagramLink": null,
+        "personalIntro": "Hi everyone, I'm Rachel and I'm going into my second year, and I'm your new regalia officer. This means I'm basically in charge of all the merch! Expect hoodies, Frank Morton T-shirts and much more. I'll happily welcome any merch ideas/requests, so just drop me an email or feel free to approach me anytime.\n\nMy favourite chemeng memory would be finishing exams, but going into the carbon capture plant comes a close second.\n\nI'm also one of the Brewmasters along with Katy (the first-year coordinator), so look out for our yearly brewery tours being organised!",
+        "preferredEmail": "rachel.ha22@imperial.ac.uk",
+        "role": {
+            "id": null,
+            "type": null
+        },
+        "profilePicture": {
+            "id": 13,
+            "url": "/chemengsoc_committee/rachel-ha.webp"
+        }
+    },
+    {
+        "id": 14,
+        "username": "niam-shah",
+        "provider": "local",
+        "confirmed": true,
+        "blocked": false,
+        "preferredName": "Niam Shah",
+        "preferredPronoun": "",
+        "cesRole": "Sports Officer",
+        "orderOfDisplay": null,
+        "subject": "",
+        "classOf": 2025,
+        "websiteLink": null,
+        "facebookLink": null,
+        "twitterLink": null,
+        "linkedinLink": null,
+        "instagramLink": null,
+        "personalIntro": "Hey, I’m Niam, a 3rd year and I am this year’s Sports Officer.\n\nMy favourite ChemEng event so far has been the BBQ and Talent Show – watching the lecturers perform was amazing!",
+        "preferredEmail": "niam.shah21@imperial.ac.uk",
+        "role": {
+            "id": null,
+            "type": null
+        },
+        "profilePicture": {
+            "id": 14,
+            "url": "/chemengsoc_committee/niam-shah.webp"
+        }
+    },
+    {
+        "id": 15,
+        "username": "charmaine-hong",
+        "provider": "local",
+        "confirmed": true,
+        "blocked": false,
+        "preferredName": "Charmaine Hong",
+        "preferredPronoun": "",
+        "cesRole": "Tour Officer",
+        "orderOfDisplay": null,
+        "subject": "",
+        "classOf": 2025,
+        "websiteLink": null,
+        "facebookLink": null,
+        "twitterLink": null,
+        "linkedinLink": null,
+        "instagramLink": null,
+        "personalIntro": "Heyya! I'm a third-year who loves football, a good workout sesh and binges Brooklyn 99 all day.\n\nAs the tour officer, I organize activities to make your ChemEng experience off-campus more enjoyable.\n\nFavourite chemeng memory: Hackspace tour",
+        "preferredEmail": "charmaine.hong21@imperial.ac.uk",
+        "role": {
+            "id": null,
+            "type": null
+        },
+        "profilePicture": {
+            "id": 15,
+            "url": "/chemengsoc_committee/charmaine-hong.webp"
+        }
+    },
+    {
+        "id": 16,
+        "username": "yiheng-shao",
+        "provider": "local",
+        "confirmed": true,
+        "blocked": false,
+        "preferredName": "Yiheng Shao",
+        "preferredPronoun": "",
+        "cesRole": "Alumni Officer",
+        "orderOfDisplay": null,
+        "subject": "",
+        "classOf": 2024,
+        "websiteLink": null,
+        "facebookLink": null,
+        "twitterLink": null,
+        "linkedinLink": null,
+        "instagramLink": null,
+        "personalIntro": "Ciao! I'm Yiheng, as your Alumni Officer, I am responsible for building a bridge between the ChemEng alumni community and all the MEng/MSc students. We're looking forward to offering meaningful alumni events which you definitely won’t wanna miss out!\n\nAs my fav ChemEng Soc memory, Frank Morton gave me the chance to escape from projects/lectures to enjoy sports/alcohol/sunshine with friends.",
+        "preferredEmail": "yiheng.shao20@imperial.ac.uk",
+        "role": {
+            "id": null,
+            "type": null
+        },
+        "profilePicture": {
+            "id": 16,
+            "url": "/chemengsoc_committee/yiheng-shan.webp"
+        }
+    },
+    {
+        "id": 17,
+        "username": "jhalak-golani",
+        "provider": "local",
+        "confirmed": true,
+        "blocked": false,
+        "preferredName": "Jhalak Golani",
+        "preferredPronoun": "",
+        "cesRole": "MSc Officer",
+        "orderOfDisplay": null,
+        "subject": "",
+        "classOf": 2026,
+        "websiteLink": null,
+        "facebookLink": null,
+        "twitterLink": null,
+        "linkedinLink": null,
+        "instagramLink": null,
+        "personalIntro": "Hi! I am Jhalak Golani and I am the MSc officer for the term 2023-24. I am dedicated to make this year productive and fun all at once! When I think about representation, the first thing that comes to mind is working together with my fellow cohort members to create a better student life experience for all of us. Let's work together to make your time at Imperial College London memorable, enjoyable, and enriching. I'm excited about the opportunity to represent you and contribute to our vibrant student community!",
+        "preferredEmail": "",
+        "role": {
+            "id": null,
+            "type": null
+        },
+        "profilePicture": {
+            "id": 17,
+            "url": "/chemengsoc_committee/jhalak-golani.webp"
+        }
+    },
+    {
+        "id": 18,
+        "username": "izmal-farroukh",
+        "provider": "local",
+        "confirmed": true,
+        "blocked": false,
+        "preferredName": "Izmal Farroukh",
+        "preferredPronoun": "",
+        "cesRole": "Sustainability Officer",
+        "orderOfDisplay": null,
+        "subject": "",
+        "classOf": 2027,
+        "websiteLink": null,
+        "facebookLink": null,
+        "twitterLink": null,
+        "linkedinLink": null,
+        "instagramLink": null,
+        "personalIntro": "If I were to describe myself, I would call myself an efficient workaholic. I spend a fraction of my free time reading articles and watching videos about sustainability. For those who don’t know me, my name is Izmal and I’m a first year. My hobbies are sports and sustainability. When I saw this position open, I immediately applied hoping to expand my sustainability impact from recycling and composting to introducing green careers and organising sustainable events. As the Sustainability Officer, I aspire to make known the sustainable pathways available for chemical engineering students and continuously enhance sustainability in the department.",
+        "preferredEmail": "",
+        "role": {
+            "id": null,
+            "type": null
+        },
+        "profilePicture": {
+            "id": 18,
+            "url": "/chemengsoc_committee/izmal-farroukh.webp"
+        }
+    }
+]

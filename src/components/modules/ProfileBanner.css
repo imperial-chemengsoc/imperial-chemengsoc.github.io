@@ -1,0 +1,107 @@
+.profilebanner {
+    margin: 0;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: visible;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    aspect-ratio: 16/9;
+}
+.profilebanner {
+    padding-bottom: 2rem;
+}
+
+.profilebanner-basicinfo {
+    padding-bottom: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-inline: 10%;
+}
+
+.profilebanner-bodycontainer {
+    width: 80%;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+}
+
+.profilebanner-left {
+    width: 100%;
+}
+
+.profilebanner-title {
+    margin: 0px;
+    color: #FFFFFF;
+    font-size: 1.25em;
+    font-weight: 600;
+}
+
+.profilebanner-line {
+    display: block;
+    width: 100%;
+    height: .08em;
+    background-color: currentColor;
+    -ms-transform-origin: top left;
+    transform-origin: top left;
+  }
+
+.profilebanner-content {
+    position: relative;
+    top: 10px;
+    font-size: 2em;
+    color: #FFFFFF;
+    font-weight: 300;
+}
+
+.profilebanner-right {
+    width: 100%;
+}
+
+.profilebanner-image {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (min-width: 960px) {
+    .profilebanner {
+        aspect-ratio: 16/6;
+        max-height: 70vh;
+    }
+
+    .profilebanner-bodycontainer {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .profilebanner-left {
+        width: 55%;
+    }
+
+    .profilebanner-title {
+        font-size: 1.5em;
+    }
+
+    .profilebanner-content {
+      font-size: 2.5em;
+    }
+
+    .profilebanner-right {
+        display: block;
+        width: 45%;
+    }
+
+    .profilebanner-basicinfo {
+        position: absolute;
+        top: 30vh;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-inline: 0 10%;
+        left: 60%;
+        width: 30%;
+    }
+}

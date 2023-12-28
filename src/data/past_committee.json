@@ -1,0 +1,42 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "attributes": {
+                "username": "someone",
+                "preferredName": "Someone",
+                "preferredPronoun": "They/Them",
+                "wcrRole": "Committee Emeritus",
+                "subject": "MEng Chemical Engineering",
+                "joinedUnivSince": 2021,
+                "preferredEmail": null,
+                "websiteLink": null,
+                "univIntroLink": null,
+                "facebookLink": null,
+                "twitterLink": null,
+                "linkedinLink": null,
+                "instagramLink": null,
+                "personalIntro": "",
+                "createdAt": null,
+                "updatedAt": null,
+                "publishedAt": null,
+                "profilePicture": {
+                    "data": {
+                        "id": 26,
+                        "attributes": {
+                            "url": ""
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    "meta": {
+        "pagination": {
+            "page": 1,
+            "pageSize": 25,
+            "pageCount": 1,
+            "total": 19
+        }
+    }
+}

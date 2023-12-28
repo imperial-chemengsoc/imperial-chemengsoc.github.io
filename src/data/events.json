@@ -1,0 +1,45 @@
+[
+    {
+        "id": 1,
+        "attributes": {
+            "title": "Test Event",
+            "startDate": "2024-10-24T16:45:00.000Z",
+            "endDate": "2024-10-24T17:30:00.000Z",
+            "withinCollege": true,
+            "isOnline": false,
+            "firstVenue": "ACEX, Imperial College London",
+            "secondVenue": null,
+            "category": "College Official",
+            "promotionLink": null,
+            "eventLink": null,
+            "description": "Test Description",
+            "contacts": "Test Contacts",
+            "banner": {
+                "data": {
+                    "id": 52,
+                    "attributes": {
+                        "name": "test.jpg",
+                        "alternativeText": "Alternative Text",
+                        "caption": null,
+                        "url": "/events/event_1.jpg",
+                        "previewUrl": null
+                    }
+                }
+            },
+            "natures": {
+                "data": [
+                    {
+                        "id": 1,
+                        "attributes": {
+                            "tagIdentifier": "Test",
+                            "name": "Freshers",
+                            "createdAt": "2023-10-22T14:01:44.916Z",
+                            "updatedAt": "2023-10-22T14:01:45.458Z",
+                            "publishedAt": "2023-10-22T14:01:45.456Z"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+]
