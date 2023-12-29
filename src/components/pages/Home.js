@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import jmespath from 'jmespath';
 import { Link } from "react-router-dom";
 import axios from "axios";
 // import { Fade } from "react-awesome-reveal";
@@ -11,19 +12,20 @@ import TopBannerImage from "../../img/topbanner/committee.jpeg";
 import EventShortDes from "../modules/EventShortDes.js";
 import Image from "../modules/Image.js";
 import ContentBlock from "../modules/ContentBlock.js";
+import EventsData from "../../data/events.json";
 
 // const axios = require("axios");
 
 const Home = () => {
   const [events, setEvents] = useState([]);
 
-  const getEvents = async () => {
-    const BaseURL = "https://samuelchlam.herokuapp.com/api"
-    const response = await axios.get(`${BaseURL}/events?sort=startDate&pagination[pageSize]=50&populate=banner&populate=mainContact&populate=natures`);
-    setEvents(response.data.data);
-  };
-
-  useEffect(() => {getEvents();}, []);
+  useEffect(() => {
+    // Use jmespath to filter events with a start date greater than the current date
+    const today = new Date().toISOString();
+    const query = `events[?attributes.startDate > \`${today}\`] | sort_by(@, &attributes.startDate)`;
+    const filteredEvents = jmespath.search({ events: EventsData }, query);
+    setEvents(filteredEvents);
+  }, []);
 
   return (
     <>
