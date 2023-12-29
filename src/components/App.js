@@ -7,11 +7,12 @@ import BottomBanner from "./modules/BottomBanner.js";
 import NotFound from "./pages/NotFound.js";
 import Accessibility from "./pages/Accessibility.js";
 import Home from "./pages/Home.js";
-import About from "./pages/About.js";
+import Sponsors from "./pages/Sponsors.js";
 import Committee from "./pages/Committee.js";
 import WhatsOn from "./pages/whatson/WhatsOn.js";
 import Event from "./pages/whatson/Event.js";
 import Profile from "./pages/Profile.js";
+import Sponsor from "./pages/Sponsor.js";
 import Contact from "./pages/Contact.js";
 
 import "../utilities.css";
@@ -54,9 +55,10 @@ const App = () => {
       <NavBar />
       <Routes>
         <Route exact path="/" element={<Home />} />
-        {/* <Route exact path="/about" element={<About />} /> */}
+        <Route exact path="/sponsors" element={<Sponsors />} />
         <Route exact path="/Committee" element={<Committee />} />
         <Route exact path="/profile/:userName" element={<Profile />} />
+        <Route exact path="/sponsor/:userName" element={<Sponsor />} />
         <Route exact path="/events/:eventId" element={<Event />} />
         <Route exact path="/whatson" element={<WhatsOn />} />
         <Route exact path="/contact" element={<Contact />} />

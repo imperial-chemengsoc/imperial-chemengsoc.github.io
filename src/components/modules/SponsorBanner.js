@@ -1,8 +1,8 @@
 import React from "react";
 
-import ProfileBasicInfo from "./ProfileBasicInfo.js";
+import SponsorBasicInfo from "./SponsorBasicInfo.js";
 import "../../utilities.css";
-import "./ProfileBanner.css";
+import "./SponsorBanner.css";
 import {colorArray} from './Colors.js'
 
 
@@ -16,10 +16,10 @@ import {colorArray} from './Colors.js'
  * @param opacityLeft for background
  * @param opacityRight for background
  * @param textColor
- * @param userObj for user object
+ * @param obj for user object
  */
 
-const ProfileBanner = ( {backgroundImage, bgColorKey, opacityLeft, opacityRight, textColor, userObj} ) => {
+const sponsorbanner = ( {backgroundImage, bgColorKey, opacityLeft, opacityRight, textColor, obj} ) => {
   const finalColorKey = bgColorKey || "black";
   const backgroundRgb = colorArray.find(element => element.key === finalColorKey).bgColor;
   const finalTextColor = textColor || colorArray.find(element => element.key === finalColorKey).textColor;
@@ -35,24 +35,24 @@ const ProfileBanner = ( {backgroundImage, bgColorKey, opacityLeft, opacityRight,
   
   return (
       <>
-        <div className="profilebanner" style={bgStyle}>
-          <div className="profilebanner-bodycontainer">
-            <div className="profilebanner-left">
-              <h3 className="profilebanner-title" style={{color: `var(--${finalTextColor})`}}>Profile</h3>
-              <h1 className="profilebanner-content" style={{color: `var(--${finalTextColor})`}}> 
-                <span className="profilebanner-line"style={{color: `var(--${finalTextColor})`}}></span>
-                {userObj.preferredName} {userObj.preferredPronoun && (<>({userObj.preferredPronoun})</>)}
+        <div className="sponsorbanner" style={bgStyle}>
+          <div className="sponsorbanner-bodycontainer">
+            <div className="sponsorbanner-left">
+              <h3 className="sponsorbanner-title" style={{color: `var(--${finalTextColor})`}}>Profile</h3>
+              <h1 className="sponsorbanner-content" style={{color: `var(--${finalTextColor})`}}> 
+                <span className="sponsorbanner-line"style={{color: `var(--${finalTextColor})`}}></span>
+                {obj.name}
               </h1>
             </div>
-            <div className="profilebanner-right">
+            <div className="sponsorbanner-right">
             </div>
           </div>
         </div>
-        <div className="profilebanner-basicinfo">
-          <ProfileBasicInfo userObj={userObj} />
+        <div className="sponsorbanner-basicinfo">
+          <SponsorBasicInfo obj={obj} />
         </div>
       </>
     );
   }
 
-export default ProfileBanner;
+export default sponsorbanner;

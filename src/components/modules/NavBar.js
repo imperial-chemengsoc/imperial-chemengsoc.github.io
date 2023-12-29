@@ -47,7 +47,7 @@ function NavBar () {
             <Link to="/" className="navbar-title u-inlineBlock" onClick={scrollToTop}>
               <div className="navbar-logo-container"> <img src={socLogo} className="navbar-logo" alt="martlet"/> </div>
               <span className="navbar-title-full">Imperial College London <br/> ChemEngSoc</span> 
-              <span className="navbar-title-short">Univ WCR</span> 
+              <span className="navbar-title-short">ICL ChemEngSoc</span> 
             </Link>
           </div>
 
@@ -57,14 +57,14 @@ function NavBar () {
 
           <ul className={click ? "navbar-menu active" : "navbar-menu"}>
 
-            {/* <li className="navbar-item">  */}
-              {/* <Link to="/about" className="navbar-links" onClick={collapseAfterClick}>About Us</Link></li> */}
-
             <li className="navbar-item"> 
               <Link to="/committee" className="navbar-links" onClick={collapseAfterClick}>Committee</Link></li>
             
             <li className="navbar-item"> 
               <Link to="/whatson" className="navbar-links" onClick={collapseAfterClick}>Events</Link></li>
+            
+            <li className="navbar-item"> 
+              <Link to="/sponsors" className="navbar-links" onClick={collapseAfterClick}>Sponsors</Link></li>
 
             <li className="navbar-item"> 
               <Link to="/contact" className="navbar-links" onClick={collapseAfterClick}>Contact Us</Link></li>

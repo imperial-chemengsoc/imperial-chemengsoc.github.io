@@ -1,0 +1,108 @@
+.sponsorbanner {
+    margin: 0;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: visible;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    aspect-ratio: 16/9;
+}
+.sponsorbanner {
+    position: relative;
+    padding-bottom: 2rem;
+}
+
+.sponsorbanner-basicinfo {
+    padding-bottom: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-inline: 10%;
+}
+
+.sponsorbanner-bodycontainer {
+    width: 80%;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+}
+
+.sponsorbanner-left {
+    width: 100%;
+}
+
+.sponsorbanner-title {
+    margin: 0px;
+    color: #FFFFFF;
+    font-size: 1.25em;
+    font-weight: 600;
+}
+
+.sponsorbanner-line {
+    display: block;
+    width: 100%;
+    height: .08em;
+    background-color: currentColor;
+    -ms-transform-origin: top left;
+    transform-origin: top left;
+  }
+
+.sponsorbanner-content {
+    position: relative;
+    top: 10px;
+    font-size: 2em;
+    color: #FFFFFF;
+    font-weight: 300;
+}
+
+.sponsorbanner-right {
+    width: 100%;
+}
+
+.sponsorbanner-image {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (min-width: 960px) {
+    .sponsorbanner {
+        aspect-ratio: 16/6;
+        max-height: 70vh;
+    }
+
+    .sponsorbanner-bodycontainer {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .sponsorbanner-left {
+        width: 55%;
+    }
+
+    .sponsorbanner-title {
+        font-size: 1.5em;
+    }
+
+    .sponsorbanner-content {
+      font-size: 2.5em;
+    }
+
+    .sponsorbanner-right {
+        display: block;
+        width: 45%;
+    }
+
+    .sponsorbanner-basicinfo {
+        position: absolute;
+        top: 20vh;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-inline: 0 10%;
+        left: 60%;
+        width: 30%;
+    }
+}

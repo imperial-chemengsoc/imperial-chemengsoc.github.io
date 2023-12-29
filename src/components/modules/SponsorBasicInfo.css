@@ -1,0 +1,16 @@
+.sponsorbasicinfo-basic {
+    padding: 5%;
+    background: var(--grey);
+    color: black;
+}
+
+.sponsorbasicinfo-basic a + a {
+    margin-left: 1ch;
+}
+
+@media (min-width: 800px) {
+
+    .sponsorbasicinfo-basic {
+        padding: 3ch;
+    }
+}

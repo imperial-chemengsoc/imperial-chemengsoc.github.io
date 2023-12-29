@@ -33,7 +33,7 @@ const WhatsOn = () => {
         title="What's On"
         content="List of Events" />
       <ContentBlock title="Events">
-        <p>Please search below upcoming events happening in  the college.</p>
+        <p>Upcoming events are listed below!</p>
         <div className="u-gridPic-3">
           {events.map((item) => {
             return (

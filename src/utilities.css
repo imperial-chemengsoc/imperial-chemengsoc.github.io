@@ -18,8 +18,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Nobile:ital,wght@1,500&family=Open+Sans&display=swap');
 
 :root {
-  --primary: rgb(2,25,54);
-  --secondary: rgb(251,189,26);
+  --primary: rgb(0,62,116);
+  --secondary: rgb(100,181,251);
   --red: rgb(229,52,44);
   --blue: rgb(122,178,221);
   --grey: rgb(225, 225, 225);
@@ -192,6 +192,14 @@ button {
   height: auto;
   background-position: center;
   background-size: cover;
+}
+
+.u-image-contain {
+  width: 100%;
+  height: auto;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .u-aspect-169 {

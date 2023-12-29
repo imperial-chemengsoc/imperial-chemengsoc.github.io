@@ -1,0 +1,182 @@
+[
+    {
+        "id": 1,
+        "username": "xylem",
+        "name": "Xylem",
+        "tier": "Gold",
+        "industry": "Water",
+        "websiteLink": null,
+        "facebookLink": null,
+        "twitterLink": null,
+        "linkedinLink": null,
+        "instagramLink": null,
+        "personalIntro": "Xylem",
+        "preferredEmail": "Email",
+        "profilePicture": {
+            "id": null,
+            "url": "/sponsors/xylem.png"
+        }
+    },
+    {
+        "id": 2,
+        "username": "chartwell",
+        "name": "Chartwell",
+        "tier": "Gold",
+        "industry": "Unknown",
+        "websiteLink": null,
+        "facebookLink": null,
+        "twitterLink": null,
+        "linkedinLink": null,
+        "instagramLink": null,
+        "personalIntro": "Chartwell",
+        "preferredEmail": "Email",
+        "profilePicture": {
+            "id": null,
+            "url": "/sponsors/chartwell.png"
+        }
+    },
+    {
+        "id": 3,
+        "username": "png",
+        "name": "P&G",
+        "tier": "Gold",
+        "industry": "Consumer Goods",
+        "websiteLink": null,
+        "facebookLink": null,
+        "twitterLink": null,
+        "linkedinLink": null,
+        "instagramLink": null,
+        "personalIntro": "P&G",
+        "preferredEmail": "Email",
+        "profilePicture": {
+            "id": null,
+            "url": "/sponsors/png.png"
+        }
+    },
+    {
+        "id": 4,
+        "username": "fairheat",
+        "name": "Fairheat",
+        "tier": "Gold",
+        "industry": "Energy",
+        "websiteLink": null,
+        "facebookLink": null,
+        "twitterLink": null,
+        "linkedinLink": null,
+        "instagramLink": null,
+        "personalIntro": "Fairheat",
+        "preferredEmail": "Email",
+        "profilePicture": {
+            "id": null,
+            "url": "/sponsors/fairheat.png"
+        }
+    },
+    {
+        "id": 5,
+        "username": "atkins",
+        "name": "Atkins",
+        "tier": "Gold",
+        "industry": "Engineering",
+        "websiteLink": null,
+        "facebookLink": null,
+        "twitterLink": null,
+        "linkedinLink": null,
+        "instagramLink": null,
+        "personalIntro": "Atkins",
+        "preferredEmail": "Email",
+        "profilePicture": {
+            "id": null,
+            "url": "/sponsors/atkins.png"
+        }
+    },
+    {
+        "id": 6,
+        "username": "exxon-mobil",
+        "name": "ExxonMobil",
+        "tier": "Gold",
+        "industry": "Energy",
+        "websiteLink": null,
+        "facebookLink": null,
+        "twitterLink": null,
+        "linkedinLink": null,
+        "instagramLink": null,
+        "personalIntro": "ExxonMobil",
+        "preferredEmail": "Email",
+        "profilePicture": {
+            "id": null,
+            "url": "/sponsors/exxon-mobil.png"
+        }
+    },
+    {
+        "id": 7,
+        "username": "bp",
+        "name": "BP",
+        "tier": "Gold",
+        "industry": "Energy",
+        "websiteLink": null,
+        "facebookLink": null,
+        "twitterLink": null,
+        "linkedinLink": null,
+        "instagramLink": null,
+        "personalIntro": "BP",
+        "preferredEmail": "Email",
+        "profilePicture": {
+            "id": null,
+            "url": "/sponsors/bp.png"
+        }
+    },
+    {
+        "id": 8,
+        "username": "technip",
+        "name": "Technip",
+        "tier": "Gold",
+        "industry": "Energy",
+        "websiteLink": null,
+        "facebookLink": null,
+        "twitterLink": null,
+        "linkedinLink": null,
+        "instagramLink": null,
+        "personalIntro": "Technip",
+        "preferredEmail": "Email",
+        "profilePicture": {
+            "id": null,
+            "url": "/sponsors/technip.png"
+        }
+    },
+    {
+        "id": 9,
+        "username": "first-light-fusion",
+        "name": "First Light Fusion",
+        "tier": "Gold",
+        "industry": "Energy",
+        "websiteLink": null,
+        "facebookLink": null,
+        "twitterLink": null,
+        "linkedinLink": null,
+        "instagramLink": null,
+        "personalIntro": "First Light Fusion",
+        "preferredEmail": "Email",
+        "profilePicture": {
+            "id": null,
+            "url": "/sponsors/first-light-fusion.png"
+        }
+    },
+    {
+        "id": 10,
+        "username": "northvolt",
+        "name": "Northvolt",
+        "tier": "Gold",
+        "industry": "Energy Storage",
+        "websiteLink": null,
+        "facebookLink": null,
+        "twitterLink": null,
+        "linkedinLink": null,
+        "instagramLink": null,
+        "personalIntro": "Northvolt",
+        "preferredEmail": "Email",
+        "profilePicture": {
+            "id": null,
+            "url": "/sponsors/northvolt.png"
+        }
+    }
+]

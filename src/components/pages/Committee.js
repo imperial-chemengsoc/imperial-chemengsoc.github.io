@@ -25,12 +25,12 @@ const Governance = () => {
           {key: 1, isLocal: false, des: "Click here to view the constitution", link: constitutionPDF}
         ]}/>
     </ContentBlock>
-    <ContentBlock title="Current Committee Members (2023/24)">
+    <ContentBlock title="Current Committee Members (2023-2024)">
       <CurrentCommittee />
     </ContentBlock>
-    <ContentBlock title="Past Committee Members">
-        <PastCommittee />
-    </ContentBlock>
+    {/* <ContentBlock title="Past Committee Members"> */}
+        {/* <PastCommittee /> */}
+    {/* </ContentBlock> */}
     {/* </Fade> */}
     </>
   );
