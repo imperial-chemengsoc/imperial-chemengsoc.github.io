@@ -11,6 +11,7 @@
     aspect-ratio: 16/9;
 }
 .profilebanner {
+    position: relative;
     padding-bottom: 2rem;
 }
 
@@ -97,7 +98,7 @@
 
     .profilebanner-basicinfo {
         position: absolute;
-        top: 30vh;
+        top: 20vh;
         margin-top: 0;
         margin-bottom: 0;
         margin-inline: 0 10%;

@@ -57,8 +57,8 @@ function NavBar () {
 
           <ul className={click ? "navbar-menu active" : "navbar-menu"}>
 
-            <li className="navbar-item"> 
-              <Link to="/about" className="navbar-links" onClick={collapseAfterClick}>About Us</Link></li>
+            {/* <li className="navbar-item">  */}
+              {/* <Link to="/about" className="navbar-links" onClick={collapseAfterClick}>About Us</Link></li> */}
 
             <li className="navbar-item"> 
               <Link to="/committee" className="navbar-links" onClick={collapseAfterClick}>Committee</Link></li>

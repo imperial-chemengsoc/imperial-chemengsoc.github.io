@@ -4,6 +4,7 @@ import React, {useState, useEffect} from "react";
 import axios from "axios";
 import jmespath from 'jmespath';
 import ContentBlock from "../../modules/ContentBlock.js";
+import TopBannerImage from "../../../img/topbanner/frankmorton.jpg";
 import Image from "../../modules/Image.js";
 import TopBanner from "../../modules/TopBanner.js";
 import EventShortDes from "../../modules/EventShortDes.js";
@@ -26,7 +27,11 @@ const WhatsOn = () => {
 
   return (
     <>
-      <TopBanner title="What's On" content="List of Events" />
+      <TopBanner
+        backgroundImage={TopBannerImage} 
+        bgColorKey="black" 
+        title="What's On"
+        content="List of Events" />
       <ContentBlock title="Events">
         <p>Please search below upcoming events happening in  the college.</p>
         <div className="u-gridPic-3">

@@ -26,8 +26,8 @@ const EventBanner = ( {eventObj} ) => {
   let bgStyle = {};
   
   try {
-    bgStyle = {backgroundImage: `linear-gradient(rgba(${actualBkgColor},0.8), 
-      rgba(${actualBkgColor},0.8)), 
+    bgStyle = {backgroundImage: `linear-gradient(rgba(${actualBkgColor},0.5), 
+      rgba(${actualBkgColor},0.5)), 
       url(${eventObj.banner.data.attributes.url})`};
   } catch {
     bgStyle = {

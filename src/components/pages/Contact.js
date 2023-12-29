@@ -6,11 +6,17 @@ import "./Contact.css";
 
 import TopBanner from "../modules/TopBanner.js";
 import ContentBlock from "../modules/ContentBlock.js";
+import TopBannerImage from "../../img/topbanner/gradparty.jpg";
+
 
 const Contact = () => {
   return (
     <>
-    <TopBanner bgColorKey="secondary" title="Contact" content="Contact Us" />
+    <TopBanner 
+    backgroundImage={TopBannerImage}
+    bgColorKey="black"
+    title="Contact"
+    content="Contact Us" />
     {/* <Fade direction="up" triggerOnce> */}
     <ContentBlock title="Emails">
       <p>We always want to hear your thoughts and ideas so feel free to get in touch!</p>

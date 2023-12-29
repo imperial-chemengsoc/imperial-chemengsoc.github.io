@@ -53,7 +53,7 @@ const Profile = () => {
   return (
     <>
       <ProfileBanner title="Profile" userObj={currentUser} bgColorKey="secondary" />
-      <ContentBlock title="Other Engagements">
+      {/* <ContentBlock title="Other Engagements">
         <div className="profile-engagement-container">
           {currentEngage.sort((item1, item2) => {return (item2.attributes.startDate > item1.attributes.startDate)}).map((item, idx) => {
             const startYear = new Date(item.attributes.startDate);
@@ -68,7 +68,7 @@ const Profile = () => {
             )
           }
         </div>
-      </ContentBlock>
+      </ContentBlock> */}
 
       <ContentBlock title="Personal introduction">
         <Markdown>{currentUser.personalIntro}</Markdown>

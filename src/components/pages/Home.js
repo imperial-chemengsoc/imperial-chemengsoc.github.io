@@ -8,7 +8,7 @@ import "../../utilities.css"
 import "./Home.css";
 
 import TopBanner from "../modules/TopBanner.js";
-import TopBannerImage from "../../img/topbanner/committee.jpeg";
+import TopBannerImage from "../../img/topbanner/eth.jpg";
 import EventShortDes from "../modules/EventShortDes.js";
 import Image from "../modules/Image.js";
 import ContentBlock from "../modules/ContentBlock.js";

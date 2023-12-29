@@ -20,9 +20,9 @@ import "./TopBanner.css";
 const colorArray = [
   { key: "primary", bgColor: [0,59,121], textColor: "secondary", defaultOpacity: 0.85},
   { key: "secondary", bgColor: [251,189,26], textColor: "primary", defaultOpacity: 0.85},
-  { key: "blue", bgColor: [122,178,221], textColor: "primary", defaultOpacity: 0.95},
-  { key: "violet", bgColor: [148,18,118], textColor: "secondary", defaultOpacity: 0.9},
-  { key: "black", bgColor: [0,0,0], textColor: "white", defaultOpacity: 0.7}
+  { key: "blue", bgColor: [122,178,221], textColor: "primary", defaultOpacity: 0.6},
+  { key: "violet", bgColor: [148,18,118], textColor: "secondary", defaultOpacity: 0.6},
+  { key: "black", bgColor: [0,0,0], textColor: "white", defaultOpacity: 0.6}
 ]
 
 const TopBanner = ( {backgroundImage, bgColorKey, opacityLeft, opacityRight, textColor, title, content} ) => {
