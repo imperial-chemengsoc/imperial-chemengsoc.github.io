@@ -48,7 +48,6 @@ const Sponsors = () => {
               <div className="sponsors-background" style={{backgroundImage: bG}}> </div>
               <div className="sponsors-about"> 
                   <div className="name"> <b>{sponsor.name}</b> </div>
-                  <div className="post"> {sponsor.tier} </div>
               </div>
               </Link>
             </div>
